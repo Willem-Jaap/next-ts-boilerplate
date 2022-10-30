@@ -2,8 +2,15 @@
 import React from 'react';
 import { NextPage } from 'next';
 
+// Component imports
+import Component from '@components/Component';
+
 const Page: NextPage = () => {
-    return <div>Page</div>;
+    return (
+        <div>
+            <Component />
+        </div>
+    );
 };
 
 export default Page;

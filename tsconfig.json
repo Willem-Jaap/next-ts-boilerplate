@@ -24,6 +24,7 @@
             "@app/*": ["src/app/*"],
             "@pages/*": ["src/pages/*"],
             "@components/*": ["src/components/*"],
+            "@styles/*": ["src/styles/*"],
             "@/*": ["src/*"]
         }
     },

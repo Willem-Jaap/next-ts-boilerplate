@@ -7,7 +7,8 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "lint-fix": "next lint --fix"
+        "lint-fix": "next lint --fix",
+        "lint-scss": "stylelint ./**/*.scss --quiet --fix"
     },
     "dependencies": {
         "next": "13.0.0",
@@ -27,6 +28,12 @@
         "eslint-config-next": "13.0.0",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.2.1",
+        "prettier-stylelint": "^0.4.2",
+        "stylelint-config-prettier": "^9.0.3",
+        "stylelint-config-standard": "^29.0.0",
+        "stylelint-config-standard-scss": "^6.0.0",
+        "stylelint-order": "^5.0.0",
+        "stylelint-scss": "^4.3.0",
         "typescript": "4.8.4"
     }
 }

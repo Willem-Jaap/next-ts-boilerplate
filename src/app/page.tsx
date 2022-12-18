@@ -1,11 +1,10 @@
 // Package imports
 import React from 'react';
-import { NextPage } from 'next';
 
 // Component imports
 import Component from '@components/Component';
 
-const Page: NextPage = () => {
+const Page = () => {
     return (
         <div>
             <Component />
